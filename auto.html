@@ -23,14 +23,16 @@
    <body>
       <!-- визуальный инфобар для красоты -->
       <nav>
-         <img src="assets/css/img/photo_2025-06-13_13-15-58.jpg" alt="AUTO.NE.RIA" />
-         <p>Всі Автомобілі</p>
-         <i class="fa-solid fa-star"></i>
+         <div class="logo">
+            <img src="assets/css/img/photo_2025-06-13_13-15-58.jpg" alt="AUTO.NE.RIA" />
+            <h2>Всі Автомобілі</h2>
+            <i title="Вибрані машини" class="fa-solid fa-star"></i>
+         </div>
       </nav>
       <header>
          <!-- Часть информации верхушки -->
          <section class="Cost-selectAuto-tab">
-            <div class="Cost-selectAuto">
+            <div class="Cost">
                <select name="cost" id="cost">
                   <option value="0">Ціна</option>
                   <option value="1">До 1000$</option>
@@ -41,14 +43,16 @@
                   <option value="6">До 50000$</option>
                </select>
             </div>
-            <select id="car-brand" name="car-brand">
-               <option value="">Оберіть марку</option>
-               <option value="toyota">Toyota</option>
-               <option value="bmw">BMW</option>
-               <option value="audi">Audi</option>
-               <option value="mercedes">Mercedes</option>
-               <option value="kia">Kia</option>
-            </select>
+            <div>
+               <select id="car-brand" name="car-brand">
+                  <option value="">Оберіть марку</option>
+                  <option value="toyota">Toyota</option>
+                  <option value="bmw">BMW</option>
+                  <option value="audi">Audi</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="kia">Kia</option>
+               </select>
+            </div>
             <div class="Button-result"><p>Результат</p></div>
          </section>
       </header>
