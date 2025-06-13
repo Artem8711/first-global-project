@@ -1,0 +1,8 @@
+.*
+
+!.gitignore
+!.prettierrc
+!.prettierignore
+.img
+
+/coverage/
