@@ -32,19 +32,20 @@
       <header>
          <!-- Часть информации верхушки -->
          <section class="Cost-selectAuto-tab">
-            <div class="Cost">
-               <select name="cost" id="cost">
-                  <option value="0">Ціна</option>
-                  <option value="1">До 1000$</option>
-                  <option value="2">До 5000$</option>
-                  <option value="3">До 10000$</option>
-                  <option value="4">До 20000$</option>
-                  <option value="5">До 30000$</option>
-                  <option value="6">До 50000$</option>
+            <div class="column">
+               <label for="price" class="column-label">Ціна</label>
+               <select id="price" name="price" class="column-select">
+                  <option value="">Оберіть ціну</option>
+                  <option value="1000-5000">1 000 – 5 000 $</option>
+                  <option value="5000-10000">5 000 – 10 000 $</option>
+                  <option value="10000-20000">10 000 – 20 000 $</option>
+                  <option value="20000-50000">20 000 – 50 000 $</option>
+                  <option value="50000+">50 000 $+</option>
                </select>
             </div>
-            <div>
-               <select id="car-brand" name="car-brand">
+            <div class="column">
+               <label for="car-brand" class="column-label">Оберіть марку</label>
+               <select id="car-brand" name="car-brand" class="column-select">
                   <option value="">Оберіть марку</option>
                   <option value="toyota">Toyota</option>
                   <option value="bmw">BMW</option>
@@ -53,7 +54,9 @@
                   <option value="kia">Kia</option>
                </select>
             </div>
-            <div class="Button-result"><p>Результат</p></div>
+            <button class="Button-result">
+               <i class="fa-solid fa-magnifying-glass"></i> Знайти авто
+            </button>
          </section>
       </header>
       <main>

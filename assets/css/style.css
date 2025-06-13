@@ -15,6 +15,13 @@ body {
 
 /* Часть верхней шапки */
 
+nav {
+   position: sticky;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
 .logo {
    display: flex;
    flex-direction: row;
@@ -39,12 +46,77 @@ body {
 }
 .logo h2:hover {
    color: #d7352c;
-   transition: color 0.4s;
+   transition: color 0.5s;
 }
 
 .logo i:hover {
    color: #d7352c;
-   transition: color 0.4s;
+   transition: color 0.5s;
 }
 
 /* Часть меню */
+
+.Cost-selectAuto-tab {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-end;
+   gap: 40px;
+   background-color: #434445;
+   margin: 30px auto;
+   padding: 32px 24px;
+   border-radius: 12px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+   max-width: 700px;
+   margin-top: 100px;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+   min-width: 180px;
+}
+
+.column-label {
+   color: #fff;
+   font-size: 1.1rem;
+   font-weight: 600;
+   margin-bottom: 4px;
+   letter-spacing: 0.5px;
+}
+
+.column-select {
+   width: 180px;
+   padding: 8px 12px;
+   border-radius: 6px;
+   border: 1px solid #d7352c;
+   font-size: 1rem;
+   background: #fff;
+   color: #333;
+   outline: none;
+   cursor: pointer;
+}
+
+.column-select:focus {
+   border: 1.5px solid #b82a22;
+}
+
+.Button-result {
+   color: white;
+   border: none;
+   border-radius: 6px;
+   padding: 12px 28px;
+   cursor: pointer;
+   background-color: #d7352c;
+   font-size: 1.1rem;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-top: 18px;
+}
+.Button-result:hover {
+   background-color: #b82a22;
+}
