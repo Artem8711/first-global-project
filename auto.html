@@ -16,12 +16,45 @@
          href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap"
          rel="stylesheet"
       />
-      <!-- для аватарки вкладки -->
-      <link rel="icon" href="favicon.png" type="image/png" />
-      <!------------>
       <link rel="stylesheet" href="/assets/css/reset.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
       <title>AUTO.NE.RIA</title>
    </head>
-   <body></body>
+   <body>
+      <!-- визуальный инфобар для красоты -->
+      <nav>
+         <img src="assets/css/img/photo_2025-06-13_13-15-58.jpg" alt="AUTO.NE.RIA" />
+         <p>Всі Автомобілі</p>
+         <i class="fa-solid fa-star"></i>
+      </nav>
+      <header>
+         <!-- Часть информации верхушки -->
+         <section class="Cost-selectAuto-tab">
+            <div class="Cost-selectAuto">
+               <select name="cost" id="cost">
+                  <option value="0">Ціна</option>
+                  <option value="1">До 1000$</option>
+                  <option value="2">До 5000$</option>
+                  <option value="3">До 10000$</option>
+                  <option value="4">До 20000$</option>
+                  <option value="5">До 30000$</option>
+                  <option value="6">До 50000$</option>
+               </select>
+            </div>
+            <select id="car-brand" name="car-brand">
+               <option value="">Оберіть марку</option>
+               <option value="toyota">Toyota</option>
+               <option value="bmw">BMW</option>
+               <option value="audi">Audi</option>
+               <option value="mercedes">Mercedes</option>
+               <option value="kia">Kia</option>
+            </select>
+            <div class="Button-result"><p>Результат</p></div>
+         </section>
+      </header>
+      <main>
+         <!-- фото картки -->
+         <section><img src="" alt="" /></section>
+      </main>
+   </body>
 </html>
