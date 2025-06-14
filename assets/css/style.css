@@ -11,16 +11,11 @@ i {
 
 body {
    font-family: 'Karla', sans-serif;
+   letter-spacing: normal;
+   word-spacing: normal;
 }
 
 /* Часть верхней шапки */
-
-nav {
-   position: sticky;
-   top: 0;
-   left: 0;
-   width: 100%;
-}
 
 .logo {
    display: flex;
@@ -69,6 +64,8 @@ nav {
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
    max-width: 700px;
    margin-top: 100px;
+   margin-bottom: 50px;
+   width: 90%;
 }
 
 .column {
@@ -119,4 +116,328 @@ nav {
 }
 .Button-result:hover {
    background-color: #b82a22;
+}
+
+/* первая машина */
+
+.FirstCar {
+   width: 42%;
+   height: 250px;
+   margin-left: auto;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   gap: 24px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.FirstCar:hover {
+   box-shadow: 0 14px 40px rgba(215, 53, 44, 0.13);
+   border-color: #d7352c;
+   transition: box-shadow 0.8s ease, border-color 0.3s ease;
+}
+
+.FirstCar img {
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+   padding: 1px;
+   flex-shrink: 1;
+}
+
+.car-info1 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-right: 25px;
+   gap: 4px;
+}
+
+.car-info1 h2 {
+   color: #333;
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+.car-info1 p {
+   color: #222;
+   font-size: 1.08rem;
+   font-weight: 500;
+}
+
+.line {
+   width: 100%;
+   height: 1.5px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+/* вторая машина */
+
+.SecondCar {
+   width: 42%;
+   height: 250px;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 24px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.SecondCar:hover {
+   box-shadow: 0 14px 40px rgba(215, 53, 44, 0.13);
+   border-color: #d7352c;
+   transition: box-shadow 0.8s ease, border-color 0.3s ease;
+}
+
+.SecondCar img {
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+   padding: 1px;
+   flex-shrink: 1;
+}
+
+.car-info2 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-left: 25px;
+   gap: 4px;
+}
+
+.car-info2 h2 {
+   color: #333;
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+.car-info2 p {
+   color: #222;
+   font-size: 1.08rem;
+   font-weight: 500;
+}
+
+.line2 {
+   width: 100%;
+   height: 1.5px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+/* третяя машина */
+
+.ThirdCar {
+   width: 42%;
+   height: 250px;
+   margin-left: auto;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   gap: 24px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.ThirdCar:hover {
+   box-shadow: 0 14px 40px rgba(215, 53, 44, 0.13);
+   border-color: #d7352c;
+   transition: box-shadow 0.8s ease, border-color 0.3s ease;
+}
+
+.ThirdCar img {
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+   padding: 1px;
+   flex-shrink: 1;
+}
+
+.car-info3 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-right: 25px;
+   gap: 4px;
+}
+
+.car-info3 h2 {
+   color: #333;
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+.car-info3 p {
+   color: #222;
+   font-size: 1.08rem;
+   font-weight: 500;
+}
+
+.line {
+   width: 100%;
+   height: 1.5px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+/* четвертая машина */
+
+.FourthCar {
+   width: 42%;
+   height: 250px;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 24px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.FourthCar:hover {
+   box-shadow: 0 14px 40px rgba(215, 53, 44, 0.13);
+   border-color: #d7352c;
+   transition: box-shadow 0.8s ease, border-color 0.3s ease;
+}
+
+.FourthCar img {
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+   padding: 1px;
+   flex-shrink: 1;
+}
+
+.car-info4 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-left: 25px;
+   gap: 4px;
+}
+
+.car-info4 h2 {
+   color: #333;
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+.car-info4 p {
+   color: #222;
+   font-size: 1.08rem;
+   font-weight: 500;
+}
+
+.line {
+   width: 100%;
+   height: 1.5px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+/* пятая машина */
+
+.FifthCar {
+   width: 42%;
+   height: 250px;
+   margin-left: auto;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   gap: 24px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.FifthCar:hover {
+   box-shadow: 0 14px 40px rgba(215, 53, 44, 0.13);
+   border-color: #d7352c;
+   transition: box-shadow 0.8s ease, border-color 0.3s ease;
+}
+
+.FifthCar img {
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+   padding: 1px;
+   flex-shrink: 1;
+}
+
+.car-info5 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-right: 25px;
+   gap: 4px;
+}
+
+.car-info5 h2 {
+   color: #333;
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: 4px;
+}
+
+.car-info5 p {
+   color: #222;
+   font-size: 1.08rem;
+   font-weight: 500;
+}
+
+.line {
+   width: 100%;
+   height: 1.5px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+/* footer */
+
+footer {
+   width: 100%;
+   text-align: center;
+   padding: 24px 0 18px 0;
+   background: #f7f7f8;
+   color: #434445;
+   font-size: 1rem;
+   border-top: 1px solid #e0e0e0;
+   margin-top: 70px;
+   letter-spacing: normal;
+   word-spacing: normal;
+}
+
+footer p {
+   margin: 6px 0;
 }
